@@ -1,4 +1,3 @@
-import "./App.css";
 import CardList from "./Components/CardList";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
