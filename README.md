@@ -2,6 +2,8 @@
 
 This is my Book Store project that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Video demo
+[Top Crypto](https://www.loom.com/share/e11bd63ab67b4bb0b0072cd27bed04a9)
 ## Available Scripts
 
 In the project directory, you can run:
