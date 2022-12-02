@@ -16,15 +16,15 @@ const Info =() => {
    
     return (
         <>
-          <Header  title={stockInfo.data.name} subtitle={stockInfo.data.rank}/>
-          <h5 className="p-1 text-muted"> {stockInfo.data.name} breakdown</h5>
+          <Header  title={stockInfo.name} subtitle={stockInfo.rank}/>
+          <h5 className="p-1 text-muted"> {stockInfo.name} breakdown</h5>
           <table className="table  table-striped">
             <tbody>
                 {
-                    Object.keys(stockInfo.data).map((key, index) => {
+                    Object.keys(stockInfo).map((key, index) => {
                         return (
                             <tr key={index}>
-                                <td className="pb-4 pt-4 fs-5">{key}: {stockInfo.data[key]}</td>
+                                <td className="pb-4 pt-4 fs-5">{key}: {stockInfo[key]}</td>
                                 
                             </tr>
                         );
