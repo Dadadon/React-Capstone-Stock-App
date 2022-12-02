@@ -11,7 +11,7 @@ const navbar = (item) => {
       <>
        <Navbar className='bg-dark'>
         <Container>
-          <Navbar.Brand><Link to="/" className='text-white text-decoration-none'><IoIosArrowBack  className='text-white d-md-none'/> {date}</Link></Navbar.Brand>
+          <Navbar.Brand><Link to="/" className='text-white text-decoration-none'><IoIosArrowBack  className='text-white'/> {date}</Link></Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-center">
             <Navbar.Text className='text-white'>
