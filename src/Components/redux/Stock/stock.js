@@ -23,10 +23,11 @@ const RetrieveStocks = () => (dispatch) => {
 
 const RetrieveStocksInfo = (symbol) => (dispatch) => {
  fetch(apiUrl+"/"+symbol)
+ 
  .then((response) => response.json()).then((data) => {
         dispatch({
             type: RETRIEVE_STOCKS_INFO,
-            payload: data,
+            payload: data.data,
         });
     })
 }
