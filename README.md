@@ -81,5 +81,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Acknowledgments
 
 - Microverse
+- [Nelson Sakwa](http://sakwadesign.com/)
 
 ## 📝 License This project is [MIT](./MIT.md) licensed.
