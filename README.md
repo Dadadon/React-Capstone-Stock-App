@@ -1,6 +1,6 @@
 # React Capstone Crypto App
 
-This is my Book Store project that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my Top Cryptos app that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Video demo
 [Top Crypto](https://www.loom.com/share/b402dc1981bb496790e89e21f1f6f881)
